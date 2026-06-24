@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Stories</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<div class="painel">
+
+    <h2>Resultados da Loteria Federal</h2>
+
+    <div class="campo">
+        <label>Data</label>
+        <input type="text"
+               id="dataInput"
+               maxlength="10">
+    </div>
+
+    <div class="campo">
+        <label>Extração</label>
+        <input type="text"
+               id="extracaoInput">
+    </div>
+
+    <div class="campo">
+        <label>5º prêmio</label>
+        <input
+            type="text"
+            id="premio5Input"
+            maxlength="5"
+            inputmode="numeric"
+            pattern="[0-9]*">
+    </div>
+
+    <div class="campo">
+        <label>4º prêmio</label>
+        <input
+            type="text"
+            id="premio4Input"
+            maxlength="5"
+            inputmode="numeric"
+            pattern="[0-9]*">
+    </div>
+
+    <div class="campo">
+        <label>3º prêmio</label>
+        <input
+            type="text"
+            id="premio3Input"
+            maxlength="5"
+            inputmode="numeric"
+            pattern="[0-9]*">
+    </div>
+
+    <div class="campo">
+        <label>2º prêmio</label>
+        <input
+            type="text"
+            id="premio2Input"
+            maxlength="5"
+            inputmode="numeric"
+            pattern="[0-9]*">
+    </div>
+
+    <div class="campo">
+        <label>1º prêmio</label>
+        <input
+            type="text"
+            id="premio1Input"
+            maxlength="5"
+            inputmode="numeric"
+            pattern="[0-9]*">
+    </div>
+
+    <button id="downloadBtn">
+        DOWNLOAD
+    </button>
+
+</div>
+
+
+<div class="container">
+
+    <!-- 5 dígitos -->
+    <div class="coluna">
+
+        <h1>5 dígitos</h1>
+
+        <div class="story-preview">
+
+            <div class="story" id="story5">
+
+                <img src="https://mtslopesprocap.github.io/gerador-stories/fundo_5digitos.png">
+
+                <div class="data" id="data5"></div>
+
+                <div class="premio p1" id="premio1_5"></div>
+                <div class="premio p2" id="premio2_5"></div>
+                <div class="premio p3" id="premio3_5"></div>
+                <div class="premio p4" id="premio4_5"></div>
+                <div class="premio p5" id="premio5_5"></div>
+
+                <div class="sorteado" id="sorteado5"></div>
+
+                <div class="extracao" id="extracao5"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 6 dígitos -->
+    <div class="coluna">
+
+        <h1>6 dígitos</h1>
+
+        <div class="story-preview">
+
+            <div class="story" id="story6">
+
+                <img src="https://mtslopesprocap.github.io/gerador-stories/fundo_6digitos.png">
+
+                <div class="data" id="data6"></div>
+
+                <div class="premio p1" id="premio1_6"></div>
+                <div class="premio p2" id="premio2_6"></div>
+                <div class="premio p3" id="premio3_6"></div>
+                <div class="premio p4" id="premio4_6"></div>
+                <div class="premio p5" id="premio5_6"></div>
+
+                <div class="sorteado" id="sorteado6"></div>
+
+                <div class="extracao" id="extracao6"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 7 dígitos -->
+    <div class="coluna">
+
+        <h1>7 dígitos</h1>
+
+        <div class="story-preview">
+
+            <div class="story" id="story7">
+
+                <img src="https://mtslopesprocap.github.io/gerador-stories/fundo_7digitos.png">
+
+                <div class="data" id="data7"></div>
+
+                <div class="premio p1" id="premio1_7"></div>
+                <div class="premio p2" id="premio2_7"></div>
+                <div class="premio p3" id="premio3_7"></div>
+                <div class="premio p4" id="premio4_7"></div>
+                <div class="premio p5" id="premio5_7"></div>
+
+                <div class="sorteado" id="sorteado7"></div>
+
+                <div class="extracao" id="extracao7"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
