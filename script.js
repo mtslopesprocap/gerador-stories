@@ -551,19 +551,19 @@ function gerarTodosOsPNGs() {
     const stories = [
 
         {
-            fundo: "https://operacional-procap.github.io/gerador-stories/fundo_5digitos.png">",
+            fundo: "https://operacional-procap.github.io/gerador-stories/fundo_5digitos.png",
             arquivo: "5digitos.png",
             desenhar: desenhar5Digitos
         },
 
         {
-            fundo: "https://operacional-procap.github.io/gerador-stories/fundo_5digitos.png">,
+            fundo: "https://operacional-procap.github.io/gerador-stories/fundo_5digitos.png",
             arquivo: "6digitos.png",
             desenhar: desenhar6Digitos
         },
 
         {
-            fundo: "https://operacional-procap.github.io/gerador-stories/fundo_5digitos.png">",
+            fundo: "https://operacional-procap.github.io/gerador-stories/fundo_5digitos.png",
             arquivo: "7digitos.png",
             desenhar: desenhar7Digitos
         }
